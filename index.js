@@ -69,7 +69,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('get is hiiting');
+    res.send('SERVER IS RUNNING...');
 })
 
 app.listen(port, () => {
